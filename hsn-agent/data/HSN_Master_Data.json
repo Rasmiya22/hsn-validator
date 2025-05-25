@@ -1,0 +1,38 @@
+[
+  {
+    "HSNCode": "01",
+    "Description": "LIVE ANIMALS"
+  },
+  {
+    "HSNCode": "01000000",
+    "Description": "Parent level 2 for 01"
+  },
+  {
+    "HSNCode": "0101",
+    "Description": "LIVE HORSES, ASSES, MULES AND HINNIES."
+  },
+  {
+    "HSNCode": "01010000",
+    "Description": "Parent level 4 for 0101"
+  },
+  {
+    "HSNCode": "010110",
+    "Description": "Parent level 6 for 010110" 
+  },
+  {
+    "HSNCode": "01011000",
+    "Description": "Parent level 6 padded for 010110"
+  },
+  {
+    "HSNCode": "01011010",
+    "Description": "LIVE HORSES, ASSES, MULES AND HINNIES PURE-BRED BREEDING ANIMALS HORSES"
+  },
+  {
+    "HSNCode": "01011020",
+    "Description": "LIVE HORSES, ASSES, MULES AND HINNIES PURE-BRED BREEDING ANIMALS ASSES"
+  },
+  {
+    "HSNCode": "01012100",
+    "Description": "PURE-BRED BREEDING ANIMALS"
+  }
+]

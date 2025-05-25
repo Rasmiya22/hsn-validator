@@ -2,15 +2,13 @@
 A Node.js-based webhook agent for validating HSN (Harmonized System of Nomenclature) codes with format and hierarchy checks.
 
 HSN Validator
-Overview
+Overview:
 This project implements an HSN (Harmonized System of Nomenclature) code validation agent built with Node.js and Express. It validates HSN codes based on predefined data and checks hierarchical correctness.
 
-Features
-Validates HSN codes for correct format and existence.
-
-Checks hierarchical integrity of HSN codes.
-
-Provides descriptive feedback for valid and invalid codes.
+Features:
+-Validates HSN codes for correct format and existence.
+-Checks hierarchical integrity of HSN codes.
+-Provides descriptive feedback for valid and invalid codes.
 
 Simple webhook API for integration.
 

@@ -16,23 +16,11 @@ Simple webhook API for integration.
 
 How to Run
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/Rasmiya22/hsn-validator.git
 cd hsn-validator
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 Start the server:
-
-bash
-Copy
-Edit
 node app.js
 Test webhook with curl or Postman by sending a POST request to http://localhost:3000/webhook.
 
@@ -41,9 +29,7 @@ Endpoint: POST /webhook
 
 Body example:
 
-json
-Copy
-Edit
+
 {
   "intent": "ValidateHSNIntent",
   "queryResult": {
@@ -54,9 +40,7 @@ Edit
   "query": "01011010"
 }
 Sample Response
-json
-Copy
-Edit
+
 {
   "fulfillmentText": "✅ Valid HSN: 01011010\nLIVE HORSES, ASSES, MULES AND HINNIES PURE-BRED BREEDING ANIMALS HORSES",
   "code": "01011010",

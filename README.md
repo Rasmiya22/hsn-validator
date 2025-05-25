@@ -24,20 +24,26 @@ This project implements an HSN (Harmonized System of Nomenclature) code validati
 ### 1. Clone the repository:
 
 
+```bash
 git clone https://github.com/Rasmiya22/hsn-validator.git
 cd hsn-validator
 2. Install dependencies:
-
+bash
+Copy
+Edit
 npm install
 3. Start the server:
-
+bash
+Copy
+Edit
 node app.js
-💡 Test webhook with curl or Postman by sending a POST request to http://localhost:3000/webhook
+🧪 Test the webhook with curl or Postman by sending a POST request to:
+http://localhost:3000/webhook
 
 📮 API Usage
 Endpoint: POST /webhook
 
-📦 Body Example:
+📨 Body Example:
 json
 Copy
 Edit
@@ -51,7 +57,9 @@ Edit
   "query": "01011010"
 }
 ✅ Sample Response:
-
+json
+Copy
+Edit
 {
   "fulfillmentText": "✅ Valid HSN: 01011010\nLIVE HORSES, ASSES, MULES AND HINNIES PURE-BRED BREEDING ANIMALS HORSES",
   "code": "01011010",
@@ -63,13 +71,15 @@ Edit
   "status": 200
 }
 📁 Project Structure
-
-├── app.js                   # Main Express server and webhook handler
+plaintext
+Copy
+Edit
+├── app.js                # Main Express server and webhook handler
 ├── fulfillment/
-│   └── validateHSN.js       # Core HSN validation logic
+│   └── validateHSN.js    # Core HSN validation logic
 ├── entities/
-│   └── hsnEntity.js         # HSN data and helper functions
+│   └── hsnEntity.js      # HSN data and helper functions
 ├── data/
-│   └── hsn.json             # HSN master data file
+│   └── hsn.json          # HSN master data file
 👩‍💻 Author
 Rasmiya
